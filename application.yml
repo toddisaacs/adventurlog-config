@@ -1,0 +1,13 @@
+
+---
+# localhost profile
+spring:
+  profiles: local
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+gateway:
+  api:
+    url: http://localhost:9001/
+message: 'Localhost Config'
