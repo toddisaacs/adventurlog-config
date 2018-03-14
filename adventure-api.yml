@@ -1,3 +1,6 @@
+message: 'adventure-api.yml message'
+
 spring:
-  profiles:  default    
-  message: 'default profile message'
+  profiles: local
+  message: 'adventure-api.yml LOCAL message'
+

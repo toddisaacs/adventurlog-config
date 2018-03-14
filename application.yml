@@ -3,6 +3,9 @@
 # localhost profile
 spring:
   profiles: local
+  cloud:
+      config:
+        uri: http://localhost:8000
 eureka:
   client:
     service-url:
@@ -10,4 +13,6 @@ eureka:
 gateway:
   api:
     url: http://localhost:9001/
-message: 'Localhost Config'
+message: 'application.yml Config'
+
+
