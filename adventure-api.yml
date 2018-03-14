@@ -2,5 +2,5 @@ message: 'adventure-api.yml message'
 
 spring:
   profiles: local
-  message: 'adventure-api.yml LOCAL message'
+message: 'adventure-api.yml LOCAL message'
 
